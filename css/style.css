@@ -1,0 +1,61 @@
+/*
+ * bymarcexl
+ * version 260302021
+ * estlos generales del sitio
+ *
+ */
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+}
+
+.title{
+	display: none;
+}
+.col-sm-3{
+	margin: 0 auto;
+}
+
+#loader{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: rgb(255,255,255,0.5);
+  z-index: 111111111;
+}
+
+.spinner-border{
+  position: absolute;
+  top: 50%;
+  z-index: 11111;
+  left: 50%;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+
+.loader-msj{
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  left: 50%;
+  margin-left: -125px;
+  top: 50%;
+  margin-top: 30px;
+}
+
+.result-text{
+	background: #8bc34a;
+	color: #444;
+	padding: 15px;
+	border:1px solid orange;
+	margin-top: 30px;
+	max-width: 100%;
+}
